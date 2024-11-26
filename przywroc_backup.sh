@@ -1,9 +1,9 @@
 #!/bin/bash
 
-BACKUP_DIR="/home/oem/projekt_ask/tygodniowy_backup"
-SOURCE_DIR="/home/oem/projekt_ask/zrodla"
-REPO1_DIR="/home/oem/projekt_ask/repo_git_1"
-REPO2_DIR="/home/oem/projekt_ask/repo_git_2"
+BACKUP_DIR="/home/ask/projekt_ask/tygodniowy_backup"
+SOURCE_DIR="/home/ask/projekt_ask/zrodla"
+REPO1_DIR="/home/ask/projekt_ask/repo_git_1"
+REPO2_DIR="/home/ask/projekt_ask/repo_git_2"
 TMP_RESTORE_DIR="/tmp/restore_tmp"
 
 #echo "Przywracanie plikow zrodlowych..."

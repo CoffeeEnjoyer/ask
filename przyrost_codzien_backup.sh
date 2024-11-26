@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SOURCE_DIR="/home/oem/projekt_ask/zrodla"
+SOURCE_DIR="/home/ask/projekt_ask/zrodla"
 REPO1_URL="git@github.com:Szajszen/ask_repo1.git" # zdalne repozytorium Git
-REPO2_DIR="/home/oem/projekt_ask/repo_git_2" # lokalne repozytorium Git
-BACKUP_DIR="/home/oem/projekt_ask/kopia_codzienna"
+REPO2_DIR="/home/ask/projekt_ask/repo_git_2" # lokalne repozytorium Git
+BACKUP_DIR="/home/ask/projekt_ask/kopia_codzienna"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 
 mkdir -p "$BACKUP_DIR"

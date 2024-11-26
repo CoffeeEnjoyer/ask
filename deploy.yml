@@ -5,11 +5,11 @@
   tasks:
     - name: Create directories
       file:
-        path: /home/oem/projekt_ask/{{ item }}
+        path: /home/ask/projekt_ask/{{ item }}
         state: directory
-        loop:
-          - zrodla
-          - repo_git_1
-          - repo_git_2
-          - tygodniowy_backup
+      loop:
+        - zrodla
+        - repo_git_1
+        - repo_git_2
+        - tygodniowy_backup
 
