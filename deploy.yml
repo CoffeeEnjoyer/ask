@@ -1,0 +1,15 @@
+---
+
+- name: Set up directory structure
+  hosts: all
+  tasks:
+    - name: Create directories
+      file:
+        path: /home/oem/projekt_ask/{{ item }}
+        state: directory
+        loop:
+          - zrodla
+          - repo_git_1
+          - repo_git_2
+          - tygodniowy_backup
+
